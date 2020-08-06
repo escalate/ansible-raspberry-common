@@ -1,3 +1,13 @@
+- name: Install package manager utilities
+  apt:
+    name: "{{ packages }}"
+    state: present
+    update_cache: true
+  vars:
+    packages:
+      - apt-transport-https
+      - software-properties-common
+
 - name: Install TERM screen-256color-bce
   apt:
     name: ncurses-term

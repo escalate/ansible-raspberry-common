@@ -6,6 +6,15 @@
   community.general.timezone:
     name: "{{ common_timezone }}"
 
+- name: Install Ansible apt requirements
+  ansible.builtin.pip:
+    name: "{{ packages }}"
+    state: present
+  vars:
+    packages:
+      - python-apt
+      - python3-apt
+
 - name: Install package manager utilities
   ansible.builtin.apt:
     name: "{{ packages }}"

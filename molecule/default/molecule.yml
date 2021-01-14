@@ -12,7 +12,7 @@ lint: |
 
 platforms:
   - name: instance
-    image: centos:7
+    image: debian:buster
     command: /lib/systemd/systemd
     tmpfs:
       - /run

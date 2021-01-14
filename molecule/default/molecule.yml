@@ -13,7 +13,8 @@ lint: |
 platforms:
   - name: instance
     image: debian:buster
-    command: /lib/systemd/systemd
+    dockerfile: Dockerfile.j2
+    override_command: false
     tmpfs:
       - /run
       - /tmp

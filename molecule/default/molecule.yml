@@ -1,0 +1,29 @@
+dependency:
+  name: galaxy
+
+driver:
+  name: docker
+
+lint: |
+  set -e
+  yamllint --strict -c .yamllint .
+  ansible-lint -x 106 .
+  flake8
+
+platforms:
+  - name: instance
+    image: centos:7
+    command: /lib/systemd/systemd
+    tmpfs:
+      - /run
+      - /tmp
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    privileged: true
+
+provisioner:
+  name: ansible
+  log: true
+
+verifier:
+  name: testinfra

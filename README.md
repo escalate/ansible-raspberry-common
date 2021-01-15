@@ -1,5 +1,7 @@
 # Ansible Role: Raspberry - Common
 
+[![CI](https://github.com/escalate/ansible-raspberry-common/workflows/CI/badge.svg?event=push)](https://github.com/escalate/ansible-raspberry-common/actions?query=workflow%3ACI)
+
 An Ansible role that manages basic operating system configuration on Raspberry Pi OS.
 
 ## Install

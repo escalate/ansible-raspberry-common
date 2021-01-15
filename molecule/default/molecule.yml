@@ -25,6 +25,9 @@ platforms:
 provisioner:
   name: ansible
   log: true
+  config_options:
+    defaults:
+      verbosity: 1
 
 verifier:
   name: testinfra

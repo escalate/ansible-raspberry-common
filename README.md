@@ -1,23 +1,23 @@
-# Ansible Role: common
+# Ansible Role: Raspberry - Common
 
-An Ansible role that manages basic common configuration settings on Raspberry Pi OS and Debian based systems.
+An Ansible role that manages basic operating system configuration on Raspberry Pi OS.
 
 ## Install
 
 ```
-$ ansible-galaxy install escalate.common
+$ ansible-galaxy install escalate.raspberry-common
 ```
 
 ## Role Variables
 
-Please see [defaults/main.yml](https://github.com/escalate/ansible-common/blob/master/defaults/main.yml) for a complete list of variables that can be overridden.
+Please see [defaults/main.yml](https://github.com/escalate/ansible-raspberry-common/blob/master/defaults/main.yml) for a complete list of variables that can be overridden.
 
 ## Example Playbook
 
 ```
 - hosts: all
   roles:
-    - escalate.common
+    - escalate.raspberry-common
 ```
 
 ## Dependencies

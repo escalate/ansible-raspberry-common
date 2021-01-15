@@ -21,6 +21,4 @@ jobs:
            python -m pip install molecule[lint,docker]
 
       - name: Run Molecule tests
-        run: molecule test
-        env:
-          PY_COLORS: '1'
+        run: make test

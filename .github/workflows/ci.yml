@@ -22,5 +22,6 @@ jobs:
 
       - name: Run Molecule tests
         run: |
+          make version
           make requirements
           make test

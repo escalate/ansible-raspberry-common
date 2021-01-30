@@ -20,3 +20,11 @@ collections:
 
 .PHONY: requirements
 requirements: collections
+
+.PHONY: version
+version:
+	ansible --version
+	molecule --version
+	yamllint --version
+	ansible-lint --version
+	flake8 --version

@@ -14,17 +14,18 @@ $ ansible-galaxy install escalate.raspberry-common
 
 Please see [defaults/main.yml](https://github.com/escalate/ansible-raspberry-common/blob/master/defaults/main.yml) for a complete list of variables that can be overridden.
 
+## Dependencies
+
+Required Ansible collections are documented in [meta/collection_requirements.yml](https://github.com/escalate/ansible-raspberry-common/blob/master/meta/collection_requirements.yml).
+
 ## Example Playbook
 
 ```
 - hosts: all
   roles:
-    - escalate.raspberry-common
+    - role: escalate.raspberry-common
+      tags: common
 ```
-
-## Dependencies
-
-None
 
 ## License
 

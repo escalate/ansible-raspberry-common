@@ -16,7 +16,10 @@ Please see [defaults/main.yml](https://github.com/escalate/ansible-raspberry-com
 
 ## Dependencies
 
-Required Ansible collections are documented in [meta/collection_requirements.yml](https://github.com/escalate/ansible-raspberry-common/blob/master/meta/collection_requirements.yml).
+This role relies on the following dependencies:
+
+* Roles: None
+* Collections: [collections.yml](https://github.com/escalate/ansible-raspberry-common/blob/master/collections.yml)
 
 ## Example Playbook
 

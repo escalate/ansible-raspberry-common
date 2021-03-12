@@ -3,6 +3,6 @@
 
 def test_timezone(host):
     """Check timezone configuration"""
-    f = "/etc/localtime"
-    assert host.file(f).is_symlink
-    assert host.file(f).linked_to == "/usr/share/zoneinfo/Europe/Berlin"
+    f = host.file("/etc/localtime")
+    assert f.is_symlink
+    assert f.linked_to == "/usr/share/zoneinfo/Europe/Berlin"

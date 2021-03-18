@@ -7,7 +7,7 @@ An Ansible role that manages basic operating system configuration on Raspberry P
 ## Install
 
 ```
-$ ansible-galaxy install escalate.raspberry-common
+$ ansible-galaxy install escalate.raspberry_common
 ```
 
 ## Role Variables
@@ -26,7 +26,7 @@ This role relies on the following dependencies:
 ```
 - hosts: all
   roles:
-    - role: escalate.raspberry-common
+    - role: escalate.raspberry_common
       tags: common
 ```
 

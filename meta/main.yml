@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: raspberry_common
+  role_name: common
   namespace: escalate
   author: Felix Boerner
   description: Manage basic operating system configuration on Raspberry Pi OS

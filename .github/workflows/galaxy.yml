@@ -1,8 +1,8 @@
 name: Galaxy
 'on':
-  push:
-    tags:
-      - '*'
+  release:
+    types:
+      - created
 jobs:
   galaxy:
     name: Galaxy

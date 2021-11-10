@@ -17,8 +17,7 @@ common_install_packages:
   - wget
   # shell completion
   - bash-completion
-  # Python pip
-  - python-pip
+  # pip
   - python3-pip
   # BSD commandline tools
   - bsdutils

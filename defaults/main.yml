@@ -19,9 +19,10 @@ common_install_packages:
   - bash-completion
   # pip
   - python3-pip
-  # BSD commandline tools
+  # logger, wall. etc.
   - bsdutils
-  - bsdmainutils
+  # dig, nslookup, etc.
+  - dnsutils
 
 common_remove_packages:
   # unused editors

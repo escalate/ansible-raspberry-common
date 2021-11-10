@@ -33,6 +33,8 @@
       - bsdutils
       # dig, nslookup, etc.
       - dnsutils
+      # GNU Privacy Guard
+      - gpg
 
 - name: Install additional packages
   ansible.builtin.apt:

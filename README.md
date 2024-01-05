@@ -1,4 +1,4 @@
-[![Molecule](https://github.com/escalate/ansible-raspberry-common/actions/workflows/molecule.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-common/actions/workflows/molecule.yml)
+[![Tests](https://github.com/escalate/ansible-raspberry-common/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-common/actions/workflows/tests.yml)
 
 # Ansible Role: Raspberry - Common
 

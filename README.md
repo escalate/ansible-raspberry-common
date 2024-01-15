@@ -1,4 +1,4 @@
-[![Tests](https://github.com/escalate/ansible-raspberry-common/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-common/actions/workflows/tests.yml)
+[![Test](https://github.com/escalate/ansible-raspberry-common/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-common/actions/workflows/test.yml)
 
 # Ansible Role: Raspberry - Common
 

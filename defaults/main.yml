@@ -1,6 +1,4 @@
 common_hostname: "{{ inventory_hostname }}"
 common_timezone: Europe/Berlin
 common_install_packages: []
-common_remove_packages:
-  # unused editors
-  - nano
+common_remove_packages: []

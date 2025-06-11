@@ -42,6 +42,8 @@
       - gpg
       # file transfer
       - rsync
+      # terminal multiplexer
+      - screen
       # compressor
       - bzip2
       - gzip

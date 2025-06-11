@@ -24,6 +24,7 @@
       - ncurses-term
       # enhanced editor
       - vim
+      - nano
       # process observation tools
       - htop
       # web tools
@@ -43,7 +44,15 @@
       - rsync
       # compressor
       - bzip2
+      - gzip
+      - tar
+      - unrar-free
       - unzip
+      - xz-utils
+      # JSON processor
+      - jq
+      # YAML processor
+      - yq
 
 - name: Install additional packages
   ansible.builtin.apt:
